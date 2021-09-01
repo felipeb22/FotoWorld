@@ -1,0 +1,85 @@
+main{
+    display: flex;
+    justify-content: center;
+    
+}
+p{
+    text-align: center;
+    color: $light;
+}
+
+.derechos{
+    background-color: $bg-color-footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    font-size: $FontSizeDerechos;
+   
+}
+
+
+article{
+    width: 45%;
+    height: 550px;
+    color: $light;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+ul{
+    li{
+        color: rgb(247, 164, 56);
+        text-align: center;
+        text-transform: uppercase; 
+    }
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.TextCenter{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr) ;
+    grid-template-rows: 400px 400px 400px ;
+    
+}
+
+.caja1{
+    width: 50%;
+    height: 200px;
+   
+    color: $light;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    
+
+}
+
+.caja2{
+    width: 50%;
+    height: 200px;
+    
+    color: $light;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+
+
+}
+
+.caja3{
+    width: 50%;
+    height: 200px;
+    
+    color: $light;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+
+}
