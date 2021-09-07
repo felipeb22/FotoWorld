@@ -14,5 +14,13 @@
     "nodemon": "^2.0.12"
   },
   "dependencies": {},
-  "description": ""
+  "description": "Sitio web que reune fotografos free lance de argentina en un mismo lugar.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipeb22/FotoWorld.git"
+  },
+  "bugs": {
+    "url": "https://github.com/felipeb22/FotoWorld/issues"
+  },
+  "homepage": "https://github.com/felipeb22/FotoWorld#readme"
 }
