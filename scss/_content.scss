@@ -42,11 +42,10 @@ h1{
 
 
 .TextCenter{
-    display: grid;
+   
     justify-content:center;
     width: 100%;
-    grid-template-columns: repeat(2, 1fr) ;
-    grid-template-rows: 400px 400px 400px ;
+    
     
 }
 
