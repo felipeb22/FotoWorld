@@ -70,45 +70,39 @@
       </div>
     </nav>
 
-    
-    
-    <section class="contacto">
-        <h1>Nuestro contacto</h1>
-        <form action="envio.php" method="POST">
-            <fieldset>
-                <legend>DATOS DE CONTACTO</legend>
-                <label for="Nombre">Nombre</label>
-                <input type="text" name="Nombre"><br>
-                <label for="Apellido">Apellido</label>
-                <input type="text" name="Apellido"><br>
-                <label for="Email">Email</label>
-                <input type="text" name="Email"><br>
-                <label for="Telefono">Telefono</label>
-                <input type="text" name="Telefono"><br>
-                <label for="">Hombre</label>
-                <input type="radio" name="sexo" id="H"><br>
-                <label for="">Mujer</label>
-                <input type="radio" name="sexo" id="M"><br>
-                <label for="">Otro</label>
-                <input type="radio" name="sexo" id="O"><br>
-            </fieldset>
-            <fieldset>
-                <label for="">Recibir promociones</label>
-                <input type="checkbox" name="Promociones" id="si"><br>
-                <label for="">Recibir emails con nuevos fotografos</label>
-                <input type="checkbox" name="fotografos" id="si"><br>
-            </fieldset>
-            <fieldset>
-                <label for="">Dejanos tu comentario</label><br>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-            </fieldset>
-            <br>
+    <div class="formu">
+      <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Correo electronico</label>
+      </div>
+      <div class="form-floating mb-3">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Nombre y apellido">
+        <label for="floatingPassword">Nombre y apellido</label>
+      </div>
+      <div class="form-floating mb-3">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Tu ciudad">
+        <label for="floatingPassword">De donde eres</label>
+      </div>
+      <div class="form-floating mb-3">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Elegi tu fotografo">
+        <label for="floatingPassword">Elegi tu fotografo</label>
+      </div>
+    </div>
 
-            <input type="reset" value="Cancelar">
-            <input type="submit" value="Enviar">
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="contacto.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Contacto
+      </a>
+      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <li><a class="dropdown-item" href="#">WhatsApp</a></li>
+        <li><a class="dropdown-item" href="#">E-Mail</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">Instagram</a></li>
+        <li><a class="dropdown-item" href="#">Twitter</a></li>
+        <li><a class="dropdown-item" href="#">Facebook</a></li>
+      </ul>
+    </li>
 
-        </form>
-    </section>
 
     <footer class="footer">
       <img src="img/instapng.png" alt="ig logo" width="40px"> <h2>@FotoWorld</h2>  
